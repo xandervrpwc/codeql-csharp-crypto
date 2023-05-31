@@ -1,0 +1,3 @@
+./codeql/javascript/import.ql,import
+./codeql/javascript/method.ql,method
+./codeql/javascript/comment.ql,comment

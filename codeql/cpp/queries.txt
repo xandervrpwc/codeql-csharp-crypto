@@ -1,0 +1,3 @@
+./codeql/cpp/import.ql,import
+./codeql/cpp/method.ql,method
+./codeql/cpp/comment.ql,comment

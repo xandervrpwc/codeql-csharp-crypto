@@ -1,0 +1,3 @@
+./codeql/go/import.ql,import
+./codeql/go/method.ql,method
+./codeql/go/comment.ql,comment
