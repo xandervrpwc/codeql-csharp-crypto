@@ -19,10 +19,14 @@ jobs:
         run: |
           wget https://github.com/github/codeql-action/releases/latest/download/codeql-bundle-linux64.tar.gz
           tar -xvzf codeql-bundle-linux64.tar.gz
+          
       - name: Add CodeQL CLI to PATH
         env:
           ACTIONS_ALLOW_UNSECURE_COMMANDS: true
         run: echo "::add-path::$(pwd)/codeql:$PATH"
+        
+      - name: bouncy castle
+        run: dotnet add package BouncyCastle
 
       - name: Run batch queries
         run: |
